@@ -1,0 +1,41 @@
+{
+  "name": "react-file-image-to-base64",
+  "version": "1.0.0",
+  "description": "A react component that converts files of image type to base64",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "if exist dist ( rd /S /Q dist)",
+    "updateLink": "npm run clean && tsc && npm rm react-file-image-to-base64 -g && npm link"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sulaimon-olaniran/react-file-image-to-base64.git"
+  },
+  "keywords": [
+    "base64",
+    "base64-image",
+    "image-to-base64"
+  ],
+  "author": "Sulaimon Olaniran",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sulaimon-olaniran/react-file-image-to-base64/issues"
+  },
+  "homepage": "https://github.com/sulaimon-olaniran/react-file-image-to-base64#readme",
+  "dependencies": {
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@mui/icons-material": "^5.8.0",
+    "@mui/material": "^5.8.0",
+    "moment": "^2.29.3",
+    "typescript": "^4.6.4"
+  },
+  "peerDependencies": {
+    "react": ">=18.1.0"
+  }
+}

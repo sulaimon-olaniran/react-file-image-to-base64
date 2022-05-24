@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "Commonjs",
+    "target" : "es2015",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "noImplicitAny": true,
+    "declaration" : true,
+    "esModuleInterop": true,
+    "jsx": "react-jsx",
+  },
+
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
